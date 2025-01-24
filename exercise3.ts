@@ -5,7 +5,7 @@ for(let i:number = 1; i <= 10; i++){
 
 
 let q2: string = "madam";
-q2 = "a man, a plan, a canal, panama"
+q2 = "a man, a plan, a canal, panama";
 
 const pureAlpha: string = q2.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 let palindrome: string = pureAlpha.split("").reverse().join("");
@@ -65,19 +65,19 @@ if (num1 > num2) {
   let sort = num1;
   num1 = num2;
   num2 = sort;
-}
+};
 
 if (num2 > num3) {
   let sort = num2;
   num2 = num3;
   num3 = sort;
-}
+};
 
 if (num1 > num2) {
   let sort = num1;
   num1 = num2;
   num2 = sort;
-}
+};
 
 console.log(num1,num2,num3);
 
@@ -97,7 +97,7 @@ else{
 }
 
 
-const q10: string = "An apple a day keeps the doctor away"
-const answer10: string = q10.replace(/a/gi, '*')
+const q10: string = "An apple a day keeps the doctor away";
+const answer10: string = q10.replace(/a/gi, '*');
 
-console.log(answer10)
+console.log(answer10);
