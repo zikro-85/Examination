@@ -8,8 +8,9 @@ Output :
 */
 
 const q1: number = 9;
+
 for(let i:number = 1; i <= 10; i++){
-  console.log(`${q1} * ${i} = ${q1 * i}`);
+console.log(`${q1} x ${i} = ${q1 * i}`)
 };
 
 /*Write a code to check whether a string is a palindrome or not.
