@@ -94,17 +94,18 @@ if (num1 > num2) {
   num2 = sort;
 };
 
+if (num1 > num3) {
+  let sort = num1;
+  num1 = num3;
+  num3 = sort; 
+};
+
 if (num2 > num3) {
   let sort = num2;
   num2 = num3;
   num3 = sort;
 };
 
-if (num1 > num2) {
-  let sort = num1;
-  num1 = num2;
-  num2 = sort;
-};
 
 console.log(num1,num2,num3);
 
